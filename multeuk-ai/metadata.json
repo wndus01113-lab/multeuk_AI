@@ -1,0 +1,6 @@
+{
+  "name": "물특 수족관 - 관상어 AI 도우미",
+  "description": "물고기를 처음 키우는 초보자도 쉽게 이해할 수 있도록 친절하게 알려주는 관상어 전문 AI 챗봇 물방울과 어항 관리 도우미입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

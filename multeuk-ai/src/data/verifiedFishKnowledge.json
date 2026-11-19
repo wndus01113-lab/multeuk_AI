@@ -1,0 +1,326 @@
+{
+  "versionLabel": "물특 관상어 12종 사육 참고 데이터 · 2026-11 검토 (종·품종·개체수별 환경 차이 있음)",
+  "safetyRules": [
+    "새 어항은 날짜만 채우지 말고 암모니아·아질산염 검사와 여과 사이클을 확인한 뒤 입수합니다. 물고기가 있는 수조에 암모니아를 일부러 넣지 않습니다.",
+    "새 물의 염소·클로라민은 수족관용 수질조절제로 처리하고 어항과 수온을 가깝게 맞춥니다. 단순히 하루 받아 놓는 것만으로 클로라민은 충분히 제거되지 않을 수 있습니다.",
+    "환수 비율과 주기는 수질 측정값·생물량·여과 상태에 맞춰 조정합니다. 100% 환수나 대청소를 일상적으로 권하지 않으며 응급상황은 별도로 판단합니다.",
+    "여과재는 박테리아 손실을 줄이도록 염소가 없는 물에서 필요할 때 부드럽게 세척하고, 여과기 작동을 유지합니다.",
+    "금붕어와 대부분의 열대어, 수컷 베타끼리, 포식성·체급 차이가 큰 조합은 단순히 온도 수치가 겹친다고 합사하지 않습니다.",
+    "사진·영상으로 암모니아, 아질산염, pH를 측정하거나 특정 질병을 확진할 수 없습니다. 증상 지속·급격한 악화 시 관상어 진료가 가능한 수의사와 상담합니다."
+  ],
+  "species": [
+    {
+      "id": "guppy",
+      "name": "구피",
+      "aliases": [
+        "구피",
+        "guppy",
+        "치어",
+        "임신"
+      ],
+      "waterType": "열대 민물고기",
+      "tempRange": "22~28°C",
+      "phRange": "7.0~8.5",
+      "minTankLiters": "가로 45cm 이상을 시작점으로 검토 (군영·번식 규모에 맞춰 더 크게)",
+      "temperament": "온순하고 활발함",
+      "compatible": "플래티 등 경수성 소형어(수조 여유·번식 관리 전제)",
+      "incompatible": "베타(화려한 꼬리를 공격할 수 있음), 금붕어(수온 다름), 큰 육식어",
+      "beginnerNotes": "경도가 있는 물을 선호하며 번식과 과밀에 유의하세요. 작은 수조에 여러 마리를 무리하게 넣지 말고, 수질과 실제 유영 공간을 확인하세요.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/poecilia-reticulata/"
+    },
+    {
+      "id": "neon-tetra",
+      "name": "네온테트라",
+      "aliases": [
+        "네온테트라",
+        "네온",
+        "테트라",
+        "카디널"
+      ],
+      "waterType": "열대 민물고기",
+      "tempRange": "21~26°C",
+      "phRange": "5.0~7.5",
+      "minTankLiters": "가로 60cm 이상을 권장 (무리 사육)",
+      "temperament": "매우 순하고 무리 지어 헤엄침",
+      "compatible": "비슷한 수질을 선호하는 작은 온순한 어종(수조 조건 확인)",
+      "incompatible": "엔젤피쉬·큰 시클리드(입에 들어가 먹힐 수 있음), 금붕어",
+      "beginnerNotes": "최소 6마리 이상 무리 생활을 고려하고 수조 길이와 안정된 수질을 확보하세요. 경수성 어종과 합사는 수질 요구 차이를 확인하세요.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/paracheirodon-innesi/"
+    },
+    {
+      "id": "betta",
+      "name": "베타",
+      "aliases": [
+        "베타",
+        "하프문",
+        "플라캇",
+        "크라운베타"
+      ],
+      "waterType": "열대 민물고기 (공기 호흡 보조기관 보유)",
+      "tempRange": "24~28°C",
+      "phRange": "6.0~7.5",
+      "minTankLiters": "단독 20L 내외 이상 권장, 온도·여과·은신처 필수",
+      "temperament": "수컷은 영역 의식이 강해 단독 사육 필수",
+      "compatible": "단독 사육 권장 (넓은 어항에서 온순한 코리도라스·달팽이는 개체별 차이 있음)",
+      "incompatible": "다른 베타, 구피(꼬리 공격), 지느러미를 뜯는 물고기",
+      "beginnerNotes": "수컷 단독 사육을 기본으로, 약한 수류·뚜껑·공기 접촉 공간을 확보하세요. 작은 컵이나 무여과 수조는 장기 사육에 적절하지 않습니다.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/betta-splendens/"
+    },
+    {
+      "id": "corydoras",
+      "name": "코리도라스류 (종별 확인)",
+      "aliases": [
+        "코리도라스",
+        "코리",
+        "알비노코리",
+        "팬더코리",
+        "화이트팬더"
+      ],
+      "waterType": "열대 바닥층 민물고기",
+      "tempRange": "22~26°C (종마다 다름)",
+      "phRange": "6.0~7.5 (종마다 다름)",
+      "minTankLiters": "가로 60cm 이상, 바닥 면적·동종 무리 확보",
+      "temperament": "매우 온순함",
+      "compatible": "동일한 수온·수질을 선호하는 온순한 소형어(종 확인 필수)",
+      "incompatible": "대형 공격성 어종, 거칠고 날카로운 바닥재 환경",
+      "beginnerNotes": "코리도라스는 여러 종을 묶은 이름입니다. 구매한 정확한 종을 확인하고 동종 무리, 부드러운 바닥재, 침강성 먹이를 준비하세요.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/corydoras-aeneus/"
+    },
+    {
+      "id": "platy",
+      "name": "플래티",
+      "aliases": [
+        "플래티",
+        "미키마우스플래티",
+        "선셋플래티"
+      ],
+      "waterType": "열대 민물고기",
+      "tempRange": "20~26°C",
+      "phRange": "7.0~8.2",
+      "minTankLiters": "가로 60cm 이상 권장 (번식 고려)",
+      "temperament": "온순하고 튼튼함",
+      "compatible": "구피, 네온테트라, 코리도라스, 몰리",
+      "incompatible": "베타, 금붕어, 큰 공격성 물고기",
+      "beginnerNotes": "경도가 있는 물을 선호하며 번식으로 개체 수가 늘 수 있습니다. 크기와 성별 구성, 여과 용량을 함께 고려하세요.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/xiphophorus-maculatus/"
+    },
+    {
+      "id": "goldfish",
+      "name": "금붕어",
+      "aliases": [
+        "금붕어",
+        "오란다",
+        "난주",
+        "유금",
+        "진주린",
+        "코메트"
+      ],
+      "waterType": "냉수성 민물고기 (열대어가 아님!)",
+      "tempRange": "18~23°C를 일반 참고값으로 사용 (품종·계절 따라 다름)",
+      "phRange": "7.0~8.0",
+      "minTankLiters": "성어 기준 대형 수조 필요: 팬시 1마리도 약 75L 이상부터 검토, 단미형은 더 큼",
+      "temperament": "온순하지만 입에 들어가는 작은 물고기를 삼킬 수 있음",
+      "compatible": "크기·품종·유영성이 비슷한 금붕어(충분한 수조 필요)",
+      "incompatible": "구피·네온테트라·베타 등 열대어(수온이 달라 합사 금지), 체리새우",
+      "beginnerNotes": "40L 소형 수조에서 장기 사육하기 어렵습니다. 품종마다 성체 크기·유영성·수조 크기가 크게 다르며 여과량과 산소 공급이 중요합니다.",
+      "sourceUrl": "https://www.rspca.org.uk/documents/1494939/7712578/Freshwater%20Fish%20Care.pdf/0116d9d9-8ab7-18f0-eba8-628f5eff612e"
+    },
+    {
+      "id": "cherry-shrimp",
+      "name": "체리새우 (Neocaridina davidi)",
+      "aliases": [
+        "체리새우",
+        "레드체리",
+        "네오카리디나",
+        "생이새우류"
+      ],
+      "waterType": "민물 관상새우",
+      "tempRange": "20~25°C",
+      "phRange": "6.5~8.0",
+      "minTankLiters": "안정된 20L 안팎 이상 권장",
+      "temperament": "매우 순함 (은신처와 모스 수초 좋아함)",
+      "compatible": "오토싱, 아주 작은 온순한 물고기(단, 새끼 새우는 먹힐 수 있음)",
+      "incompatible": "엔젤피쉬, 베타, 금붕어, 구리가 포함된 어병 약품",
+      "beginnerNotes": "체리새우는 Neocaridina davidi입니다. 야마토새우는 다른 종으로 같은 사육종으로 취급하지 않습니다. 구리계 약품, 급격한 수질 변화를 주의하세요.",
+      "sourceUrl": "https://www.seriouslyfish.com/"
+    },
+    {
+      "id": "otocinclus",
+      "name": "오토싱",
+      "aliases": [
+        "오토싱",
+        "오토신클루스"
+      ],
+      "waterType": "열대 초식성 이끼 청소 물고기",
+      "tempRange": "21~26°C",
+      "phRange": "5.5~7.5",
+      "minTankLiters": "가로 45cm 이상, 충분히 성숙한 수초 어항 권장",
+      "temperament": "극도로 온순함",
+      "compatible": "거의 모든 순한 소형 열대어, 체리새우",
+      "incompatible": "대형 공격성 어종",
+      "beginnerNotes": "새 수조·무이끼 환경에서는 먹이 부족으로 굶기 쉽습니다. 성숙한 어항, 바이오필름, 보조 사료, 동종 무리를 확인하세요.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/otocinclus-macrospilus/"
+    },
+    {
+      "id": "zebra-danio",
+      "name": "제브라 다니오",
+      "aliases": [
+        "제브라다니오",
+        "다니오",
+        "글로피쉬"
+      ],
+      "waterType": "아열대 민물고기",
+      "tempRange": "18~25°C",
+      "phRange": "6.0~8.0",
+      "minTankLiters": "가로 90cm 이상 권장 (활동량 높음)",
+      "temperament": "활동량이 많고 가끔 느린 어종을 쫓음",
+      "compatible": "활발한 테트라류, 코리도라스, 플래티",
+      "incompatible": "지느러미가 매우 길고 느린 베타 등",
+      "beginnerNotes": "활동량이 많아 30L 수조보다는 긴 유영 공간을 우선하세요. 점프를 막을 뚜껑과 동종 무리가 필요합니다.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/danio-rerio/"
+    },
+    {
+      "id": "molly",
+      "name": "몰리",
+      "aliases": [
+        "몰리",
+        "블랙몰리",
+        "풍선몰리",
+        "달마시안몰리"
+      ],
+      "waterType": "열대 민물고기",
+      "tempRange": "21~28°C",
+      "phRange": "7.0~8.5",
+      "minTankLiters": "가로 90cm 이상 권장 (종·품종별 차이)",
+      "temperament": "비교적 온순함 (수컷끼리는 가끔 쫓아다님)",
+      "compatible": "플래티, 구피, 코리도라스",
+      "incompatible": "찬물 어항(22°C 이하에서는 백점병에 취약), 금붕어",
+      "beginnerNotes": "경수가 중요하며 번식·개체 크기·품종 차이가 있습니다. 30L를 일반적인 최소 기준처럼 권하지 않습니다.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/poecilia-sphenops/"
+    },
+    {
+      "id": "bristlenose-pleco",
+      "name": "안시 (브리스틀노즈류)",
+      "aliases": [
+        "안시",
+        "안시스트러스",
+        "롱핀안시",
+        "숏핀안시",
+        "플레코"
+      ],
+      "waterType": "열대 바닥층 이끼 청소 물고기",
+      "tempRange": "23~27°C",
+      "phRange": "6.0~7.5",
+      "minTankLiters": "가로 80cm 이상 권장 (성어 기준)",
+      "temperament": "온순하지만 은신처 주변은 지킴",
+      "compatible": "대부분의 열대어",
+      "incompatible": "너무 작은 10L 미만 어항",
+      "beginnerNotes": "브리스틀노즈 안시는 성체 크기와 배설량 때문에 40L 소형 어항에 적합하지 않습니다. 유목·은신처·전용 먹이를 준비하세요.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/ancistrus-cf-cirrhosus/"
+    },
+    {
+      "id": "angelfish",
+      "name": "엔젤피쉬",
+      "aliases": [
+        "엔젤피쉬",
+        "엔젤",
+        "코이엔젤"
+      ],
+      "waterType": "열대 중형 민물고기",
+      "tempRange": "24~30°C",
+      "phRange": "6.0~7.4",
+      "minTankLiters": "가로 100×40cm 이상, 충분한 높이 필요",
+      "temperament": "크면서 영역 싸움과 소형어 포식 본능이 생김",
+      "compatible": "비슷한 크기의 온순한 중형어, 코리도라스",
+      "incompatible": "네온테트라, 작은 구피, 체리새우(입에 들어가면 잡아먹음)",
+      "beginnerNotes": "성어의 높이와 공격성, 번식 영역을 감안해 60L 소형 어항은 피하세요. 작은 테트라·새우는 먹힐 수 있습니다.",
+      "sourceUrl": "https://www.seriouslyfish.com/species/pterophyllum-scalare/"
+    }
+  ],
+  "careTopics": [
+    {
+      "id": "cycling",
+      "title": "물잡이 (여과 사이클)",
+      "keywords": [
+        "물잡이",
+        "사이클",
+        "세팅",
+        "처음",
+        "새 어항",
+        "암모니아",
+        "아질산"
+      ],
+      "verifiedGuide": "여과 사이클은 암모니아 → 아질산염 → 질산염으로 이어지는 미생물 작용입니다. 며칠 또는 1~2주가 지났다는 사실만으로 완성되지 않습니다. 물고기 없는 물잡이에서 암모니아와 아질산염이 측정상 0으로 처리되는지 확인한 뒤 단계적으로 입수하세요. 물고기가 있는 수조에 암모니아를 일부러 넣지 마세요."
+    },
+    {
+      "id": "water-change",
+      "title": "부분 환수 (물갈이)",
+      "keywords": [
+        "물갈이",
+        "환수",
+        "수돗물",
+        "염소",
+        "물받아",
+        "물갈이제"
+      ],
+      "verifiedGuide": "환수량·주기는 암모니아, 아질산염, 질산염, 생물량, 수질변화와 상태에 맞춰 결정합니다. 새 물은 염소·클로라민을 처리하고 어항 수온과 가깝게 맞춰 천천히 넣으세요. 하루 받아두는 것만으로 클로라민까지 제거된다고 보장할 수 없습니다. 여과재 전체 교체와 일상적인 전량 환수는 피하세요."
+    },
+    {
+      "id": "cloudy-water",
+      "title": "백탁 현상 (물이 하얗게 뿌염)",
+      "keywords": [
+        "백탁",
+        "뿌옇",
+        "뿌염",
+        "하얗",
+        "탁해",
+        "냄새"
+      ],
+      "verifiedGuide": "백탁은 원인이 다양합니다. 새 어항의 미생물 변화, 바닥재 먼지, 먹이 과다, 여과 문제 등을 확인하세요. 사진만으로 안전한 수질인지 판단할 수 없으므로 암모니아·아질산염을 검사하고, 생물이 있거나 이상 징후가 있으면 수질에 따라 부분 환수 및 산소 공급을 검토하세요."
+    },
+    {
+      "id": "surface-gasping",
+      "title": "수면 뻐끔거림 및 이상 유영",
+      "keywords": [
+        "수면",
+        "뻐끔",
+        "숨",
+        "산소",
+        "가라앉",
+        "구석",
+        "뒤집",
+        "이상 유영"
+      ],
+      "verifiedGuide": "수면에서 계속 헐떡이거나 평소와 다른 유영을 한다면 용존산소 부족, 수온 이상, 암모니아·아질산염 문제 등 여러 가능성이 있습니다. 여과·에어레이션·수온을 즉시 확인하고 가능한 한 수질을 측정하세요. 지속적으로 이상이 있으면 전문가 도움을 받아야 합니다."
+    },
+    {
+      "id": "ich-disease",
+      "title": "백점병 (몸·지느러미 하얀 점)",
+      "keywords": [
+        "백점",
+        "하얀 점",
+        "하얀점",
+        "흰 점",
+        "흰점",
+        "몸을 비벼",
+        "소금"
+      ],
+      "verifiedGuide": "흰 점은 백점병 외 다른 원인도 있습니다. 사진만으로 확진하거나 모든 어종에 무조건 28°C 이상 승온·소금·약품 투여를 권하지 않습니다. 수온·수질을 안정시키고, 어종과 새우·수초에 적합한 치료를 전문가 또는 제품 설명서로 확인하세요."
+    },
+    {
+      "id": "fin-rot",
+      "title": "지느러미 썩음·갈라짐 및 싸움",
+      "keywords": [
+        "지느러미",
+        "갈라",
+        "녹아",
+        "찢어",
+        "싸움",
+        "쫓아",
+        "공격",
+        "스트레스"
+      ],
+      "verifiedGuide": "지느러미 손상은 물리적 찢김, 동종 공격, 수질 악화, 감염 등 원인이 다릅니다. 수질 측정과 공격 여부 관찰부터 하고, 급격하게 악화하면 진료·전문 상담을 권하세요. 치료제 용량을 임의로 지어내지 마세요."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "guppy": {
+    "src": "/fish/guppy.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "neon-tetra": {
+    "src": "/fish/neon-tetra.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "betta": {
+    "src": "/fish/betta.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "corydoras": {
+    "src": "/fish/corydoras.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "platy": {
+    "src": "/fish/platy.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "goldfish": {
+    "src": "/fish/goldfish.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "cherry-shrimp": {
+    "src": "/fish/cherry-shrimp.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "otocinclus": {
+    "src": "/fish/otocinclus.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "zebra-danio": {
+    "src": "/fish/zebra-danio.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "molly": {
+    "src": "/fish/molly.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "bristlenose-pleco": {
+    "src": "/fish/bristlenose-pleco.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  },
+  "angelfish": {
+    "src": "/fish/angelfish.png",
+    "source": "local",
+    "author": "물특 전용 도감 일러스트",
+    "license": "프로젝트 포함 PNG 자산",
+    "licenseUrl": "",
+    "changed": true
+  }
+}
