@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: "Plus Jakarta Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: "IBM Plex Mono", monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    background-color: #eafaff;
+    color: #243b7a;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #eafaff;
+    color: #243b7a;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* 물특 수중 파스텔 테마 — AI 기능과 데이터 흐름은 그대로 유지 */
+:root { --water-blue:#aee7f8; --water-mint:#beefe3; --water-ink:#243b7a; --water-pink:#ffd8e6; }
+body {background:linear-gradient(155deg,#effcff 0%,#e1f9f7 43%,#f2fbff 100%);}
+.underwater-page { position:relative; isolation:isolate; background:transparent; }
+.underwater-page::before { content:""; position:fixed; z-index:-1; inset:0; pointer-events:none;
+ background:radial-gradient(circle at 8% 16%,rgba(255,255,255,.9) 0 8px,transparent 9px),
+ radial-gradient(circle at 14% 23%,rgba(255,255,255,.65) 0 4px,transparent 5px),
+ radial-gradient(circle at 90% 15%,rgba(255,255,255,.85) 0 15px,transparent 16px),
+ radial-gradient(circle at 84% 27%,rgba(255,255,255,.7) 0 6px,transparent 7px),
+ radial-gradient(circle at 8% 77%,rgba(255,255,255,.65) 0 13px,transparent 14px),
+ radial-gradient(circle at 95% 83%,rgba(255,255,255,.75) 0 11px,transparent 12px);
+ opacity:.75; }
+.aquarium-section {position:relative;}
+.aquarium-section::before {content:"🫧"; position:absolute; right:3%; top:0; font-size:26px; opacity:.55; pointer-events:none;}
+.aquarium-stage::after {content:""; position:absolute; inset:0; pointer-events:none;
+ background:radial-gradient(circle at 15% 22%,rgba(255,255,255,.8) 0 7px,transparent 8px),
+ radial-gradient(circle at 75% 26%,rgba(255,255,255,.55) 0 10px,transparent 11px),
+ radial-gradient(circle at 82% 55%,rgba(255,255,255,.7) 0 5px,transparent 6px);}
+.mascot-card {background:linear-gradient(145deg,#ffffff 0%,#f0fffc 60%,#eaf7ff 100%);}
+button { -webkit-tap-highlight-color:transparent; }
+button:focus-visible, a:focus-visible {outline:3px solid #63b8f5;outline-offset:3px;}
+@media (prefers-reduced-motion: no-preference) {
+ .aquarium-stage::after { animation:bubble-sway 7s ease-in-out infinite alternate; }
+ @keyframes bubble-sway { from {transform:translateY(7px)} to {transform:translateY(-11px)} }
+}
+
+/* Narrow-screen ergonomics and iPhone safe-area handling */
+@media (max-width: 639px) {
+  .underwater-page { overflow-x: clip; }
+  button, input, textarea { touch-action: manipulation; }
+  input, textarea, select { font-size: 16px; }
+}
+@supports(padding: max(0px)) {
+  .underwater-page footer { padding-bottom: max(24px, env(safe-area-inset-bottom)); }
+}
+
+@keyframes multeuk-float { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-9px) rotate(2deg); } }
+.multeuk-fish-swim { animation: multeuk-float 4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .multeuk-fish-swim { animation: none; } }
